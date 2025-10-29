@@ -1,7 +1,7 @@
 // src/services/api.js
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://feedback-3tr7.onrender.com";
 
 // Get all feedback
 export const getAllFeedback = async () => {
